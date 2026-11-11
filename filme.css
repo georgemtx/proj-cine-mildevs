@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #730606; /* Fundo vermelho */
-  color: #D9C8B4; /* Letras creme */
+  color: #d9c8b4; /* Letras creme */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ body {
 
 /* Cabeçalho */
 .header {
-  background-color: #0C0B09; /* Box preta */
+  background-color: #0c0b09; /* Box preta */
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -26,11 +26,11 @@ body {
 
 .header h1 {
   font-size: 1.8rem;
-  color: #D9C8B4;
+  color: #d9c8b4;
 }
 
 .nav a {
-  color: #D9C8B4;
+  color: #d9c8b4;
   text-decoration: none;
   font-weight: 600;
   transition: opacity 0.3s ease;
@@ -51,7 +51,7 @@ body {
 
 /* Container de Detalhes (Flexbox) */
 .detail-container {
-  background-color: #0C0B09; /* Box preta */
+  background-color: #0c0b09; /* Box preta */
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -90,13 +90,13 @@ body {
 
 .detail-content h2 {
   font-size: 2.2rem;
-  color: #D9C8B4;
+  color: #d9c8b4;
 }
 
 .badge {
   display: inline-block;
   background-color: #730606;
-  color: #D9C8B4;
+  color: #d9c8b4;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   font-size: 0.9rem;
@@ -106,7 +106,7 @@ body {
 
 .synopsis {
   line-height: 1.6;
-  color: #D9C8B4;
+  color: #d9c8b4;
   font-size: 0.95rem;
 }
 
@@ -116,12 +116,14 @@ body {
   margin-top: 1rem;
   padding: 0.75rem 1.25rem;
   background-color: #730606;
-  color: #D9C8B4;
+  color: #d9c8b4;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
   align-self: flex-start;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 .back-btn:hover {
@@ -131,7 +133,7 @@ body {
 
 /* Rodapé */
 .footer {
-  background-color: #0C0B09; /* Box preta */
+  background-color: #0c0b09; /* Box preta */
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;

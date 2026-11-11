@@ -35,6 +35,15 @@ body {
     }
   }
 
+  .nav a:hover {
+    color: #520404;
+  }
+
+  .movie-card:hover {
+    box-shadow: 10px 10px 5px 5px #0c0b0962;
+    transform: translateY(-3px);
+  }
+
   main {
     .hero {
       display: flex;
@@ -94,4 +103,8 @@ body {
     padding: 10px;
     color: #d9c8b4;
   }
+}
+
+.container {
+  padding-bottom: 20px;
 }
