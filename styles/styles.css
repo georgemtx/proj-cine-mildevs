@@ -4,52 +4,94 @@
 }
 
 body {
-  width: flex;
-  flex-direction: row;
-}
-
-.movie-grid {
-  background-color: #730606;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.movie-card {
-  width: 150px;
-  background-color: #d9c8b4;
-  border-radius: 8px;
-}
-
-/* Aqui */
-.movie-card img {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
-}
-
-.movie-info {
-  padding: 10px;
-  color: #0c0b09;
-}
-
-.movie-info h3 {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-.movie-info p {
-  font-size: 12px;
-  margin: 0;
-}
-
-.footer {
-  background-color: #0c0b09;
+  min-height: 100vh;
 
   display: flex;
-  justify-content: center;
-  padding: 10px;
+  flex-direction: column;
+
+  background-color: hsl(0, 90%, 24%);
   color: #d9c8b4;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0b09;
+
+    padding: 2rem;
+  }
+
+  .nav {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+    padding-top: 10px;
+
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: #d9c8b4;
+    }
+  }
+
+  main {
+    .hero {
+      display: flex;
+      flex-direction: column;
+
+      padding-left: 2rem;
+
+      gap: 4px;
+      padding-top: 1rem;
+
+      margin-bottom: 1rem;
+    }
+
+    .movie-grid {
+      background-color: #730606;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .movie-card {
+      width: 30%;
+      background-color: #d9c8b4;
+      border-radius: 8px;
+    }
+
+    /* Aqui */
+    .movie-card img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .movie-info {
+      padding: 10px;
+      color: #0c0b09;
+    }
+
+    .movie-info h3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .movie-info p {
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+
+  footer {
+    background-color: #0c0b09;
+
+    margin-top: auto;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #d9c8b4;
+  }
 }
